@@ -1,0 +1,17 @@
+testng\testcases\CreateAccTest.class
+testng\pages\MyProfilePage.class
+testng\pages\CreateOpportunityPage.class
+testng\testcases\LoginTest.class
+testng\pages\CreateAccPage.class
+testng\pages\ContactsPage.class
+testng\testcases\ContactsTest.class
+testng\pages\LoginPage.class
+testng\pages\RandomScenariosPage.class
+testng\pages\LeadsPage.class
+testng\pages\MySettingsPage.class
+testng\testcases\CreateOpportunityTest.class
+testng\testcases\RandomScenariosTest.class
+testng\pages\UserMenuDropdownPage.class
+testng\testcases\LeadsTest.class
+testng\testcases\UserMenuDropdownTest.class
+testng\pages\DeveloperConsolePage.class

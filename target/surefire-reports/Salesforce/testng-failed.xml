@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Salesforce]">
+  <parameter name="password" value="Sales1Force"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="username" value="hello@peppa.pig"/>
+  <listeners>
+    <listener class-name="testng.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="login(failed)">
+    <classes>
+      <class name="testng.testcases.LoginTest">
+        <methods>
+          <include name="tc04a"/>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testng.testcases.LoginTest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [Salesforce] -->

@@ -1,0 +1,7 @@
+testng\base\BaseTest.class
+testng\listeners\ExtentTestManager.class
+testng\base\BasePage.class
+testng\listeners\TestListener.class
+testng\listeners\ExtentManager.class
+testng\utilities\GetProperty.class
+testng\log\Log.class

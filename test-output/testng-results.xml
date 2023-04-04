@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46263" started-at="2023-03-30T09:04:50 PDT" finished-at="2023-03-30T09:05:36 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46263" started-at="2023-03-30T09:04:50 PDT" finished-at="2023-03-30T09:05:36 PDT">
+      <class name="testng.testcases.CreateOpportunityTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testng.testcases.CreateOpportunityTest@4a87761d]" name="launchBrowser" is-config="true" duration-ms="6954" started-at="2023-03-30T09:04:50 PDT" finished-at="2023-03-30T09:04:57 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="tc16()[pri:0, instance:testng.testcases.CreateOpportunityTest@4a87761d]" name="tc16" duration-ms="38690" started-at="2023-03-30T09:04:57 PDT" finished-at="2023-03-30T09:05:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc16 -->
+        <test-method status="PASS" signature="teardown(java.lang.reflect.Method)[pri:0, instance:testng.testcases.CreateOpportunityTest@4a87761d]" name="teardown" is-config="true" duration-ms="537" started-at="2023-03-30T09:05:35 PDT" finished-at="2023-03-30T09:05:36 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testng.testcases.CreateOpportunityTest.tc16() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testng.testcases.CreateOpportunityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Salesforce">
+
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="username" value="hello@peppa.pig"></parameter>
+<parameter name="password" value="Sales1Force"></parameter>
+
+
+<listeners>
+<listener class-name="testng.listeners.TestListener"/>
+</listeners>
+
+<test name="login">
+<classes>
+
+<class name="testng.testcases.LoginTest"/>
+<!-- class name="testng.testcases.LoginTest"/>
+<class name="testng.testcases.UserMenuDropdownTest"></class>
+<class name="testng.testcases.CreateAccTest"></class>
+<class name="testng.testcases.CreateOpportunityTest"></class>
+<class name="testng.testcases.LeadsTest"></class>
+<class name="testng.testcases.ContactsTest"></class>
+
+<class name="testng.testcases.ContactsTest"></class-->
+
+</classes>
+
+</test>
+
+</suite>
